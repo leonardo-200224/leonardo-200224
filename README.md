@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Leonardo Ayala
 
-💻 **Junior Software Developer**  
+💻 ** Software Developer **  
 🚀 Currently in an intensive training process at Riwi  
 
 ---
@@ -15,18 +15,18 @@ I enjoy combining creativity with technology to transform ideas into functional 
 
 ## 🚀 Current Focus
 
-- 🐍 Strengthening my Python skills 
-- 📚 Learning clean code, best practices, and software architecture  
-- 💼 Preparing for professional software development environments  
+-  Strengthening my Python skills 
+-  Learning clean code, best practices, and software architecture  
+-  Preparing for professional software development environments  
 
 ---
 
 ## 🎯 Interests
 
-- 🎨 Art & Creative Design  
-- 🎬 Movies  
-- 🌍 Traveling  
-- 💡 Finding inspiration for coding ideas everywhere  
+-  Art & Creative Design  
+-  Movies  
+-  Traveling  
+-  Finding inspiration for coding ideas everywhere  
 
 ---
 
