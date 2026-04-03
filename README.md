@@ -1,11 +1,11 @@
-# 👋 Hi, I'm Leonardo Ayala
+#  Hi, I'm Leonardo Ayala
 
-💻 ** Software Developer **  
-🚀 Currently in an intensive training process at Riwi  
+ ** Software Developer **  
+ Currently in an intensive training process at Riwi  
 
 ---
 
-## 🧠 About Me
+##  About Me
 
 I'm a software developer in a professional training process at **Riwi**, where I am strengthening my technical skills and preparing to deliver real-world software solutions.
 
@@ -13,7 +13,7 @@ I enjoy combining creativity with technology to transform ideas into functional 
 
 ---
 
-## 🚀 Current Focus
+##  Current Focus
 
 -  Strengthening my Python skills 
 -  Learning clean code, best practices, and software architecture  
@@ -21,7 +21,7 @@ I enjoy combining creativity with technology to transform ideas into functional 
 
 ---
 
-## 🎯 Interests
+##  Interests
 
 -  Art & Creative Design  
 -  Movies  
@@ -30,11 +30,11 @@ I enjoy combining creativity with technology to transform ideas into functional 
 
 ---
 
-## 💬 Fun Fact
+##  Fun Fact
 
 Many of my coding ideas come while watching movies or exploring new places.  
 Creativity fuels my development process.
 
 ---
 
-⭐ Always learning. Always building. Always improving.
+ Always learning. Always building. Always improving.
