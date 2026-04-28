@@ -1,5 +1,4 @@
 #  Hi, I'm Leonardo Ayala
-#### Software Developer
 <img width="1584" height="396" alt="Black and White Minimalist Professional LinkedIn Banner" src="https://github.com/user-attachments/assets/09186c52-30ee-44fa-bf56-a6ebbb1a91eb" />
 
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
