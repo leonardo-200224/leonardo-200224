@@ -1,0 +1,10 @@
+{
+  "type": "normal",
+  "backgroundColor": "#0B0F17",
+  "foregroundColor": "#ECEFF6",
+  "strongColor": "#3FD0FF",
+  "weakColor": "#5F6A82",
+  "radarColor": "#3FD0FF",
+  "growingAnimation": true,
+  "contribColors": ["#141B2B", "#1A2A52", "#2C4A9A", "#4D7CFF", "#3FD0FF"]
+}

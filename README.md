@@ -1,4 +1,4 @@
-<a href="https://leonardo-200224.github.io/portfolio/"><img src="./assets/header.svg" width="100%" alt="Leonardo Ayala · Software Developer · Systems Engineering"></a>
+<a href="https://leonardo-200224.github.io/portfolio/"><img src="https://raw.githubusercontent.com/leonardo-200224/leonardo-200224/output/header.svg" width="100%" alt="Leonardo Ayala · Software Developer · Systems Engineering"></a>
 
 <p align="center">
   <a href="https://leonardo-200224.github.io/portfolio/"><img src="https://img.shields.io/badge/Portfolio-05060A?style=for-the-badge&logo=googlechrome&logoColor=3FD0FF" alt="Portfolio"></a>
@@ -7,6 +7,10 @@
 </p>
 
 <img src="./assets/about.svg" width="100%" alt="Leonardo Iván Ayala Pérez. Software Developer based in Colombia, focused on backend, APIs and process automation. Stack: Node.js, TypeScript, NestJS, Python, PostgreSQL. Training at Riwi on the Advanced Node.js track.">
+
+<img src="https://raw.githubusercontent.com/leonardo-200224/leonardo-200224/output/stats.svg" width="100%" alt="Live GitHub stats: contributions, streaks, public repositories and languages">
+
+<img src="https://raw.githubusercontent.com/leonardo-200224/leonardo-200224/output/contrib-3d.svg" width="100%" alt="Contributions of the last year as a 3D city">
 
 <a href="https://leonardo-200224.github.io/portfolio/"><img src="./assets/card-portfolio.svg" width="49%" alt="Interactive portfolio"></a>
 <a href="https://github.com/leonardo-200224/DORMIFY"><img src="./assets/card-dormify.svg" width="49%" alt="Dormify"></a>
@@ -22,3 +26,5 @@
 </p>
 
 <img src="./assets/footer.svg" width="100%" alt="Always learning. Always building. Always improving.">
+
+<p align="center"><sub>The banner, stats and 3D graph rebuild themselves every hour with GitHub Actions. Volt follows Colombia's clock. <a href="./scripts/generar.mjs">See how</a>.</sub></p>

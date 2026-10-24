@@ -1,0 +1,53 @@
+# Regenera cada hora las tarjetas vivas del perfil (banner según la hora de Colombia,
+# estadísticas reales y contribuciones en 3D) y las publica en la rama "output",
+# que el README lee directamente. Así el historial de main no se llena de commits.
+name: Perfil vivo
+
+on:
+  schedule:
+    - cron: "5 * * * *"
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: perfil-vivo
+  cancel-in-progress: true
+
+jobs:
+  generar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+
+      - name: Banner y estadísticas
+        run: node scripts/generar.mjs salida
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USUARIO: ${{ github.repository_owner }}
+
+      - name: Contribuciones en 3D
+        uses: yoshi389111/github-profile-3d-contrib@v0.9.3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+          SETTING_JSON: .github/contrib-3d.json
+
+      - name: Publicar en la rama output
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cp "$(ls profile-3d-contrib/*.svg | head -1)" salida/contrib-3d.svg
+          cd salida
+          git init -q -b output
+          git add -A
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+            commit -q -m "Actualizar tarjetas del perfil"
+          git push -f -q "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" output
