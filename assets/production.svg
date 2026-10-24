@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="Systems in production">
+<style>
+  .ic{animation:pulso 2.4s ease-in-out infinite}
+  @keyframes pulso{50%{opacity:.45}}
+  .punto{animation:vivo 2s ease-out infinite}
+  @keyframes vivo{0%{r:4;opacity:1}100%{r:12;opacity:0}}
+  @media (prefers-reduced-motion:reduce){.ic,.punto{animation:none}}
+</style>
+<defs>
+  <linearGradient id="borde" x1="0" x2="1"><stop offset="0" stop-color="#4D7CFF"/><stop offset=".5" stop-color="#3FD0FF"/><stop offset="1" stop-color="#F5C542"/></linearGradient>
+  <clipPath id="m"><rect width="1200" height="340" rx="16"/></clipPath>
+</defs>
+<g clip-path="url(#m)">
+  <rect width="1200" height="340" fill="#0B0F17"/>
+  <rect width="1200" height="2" fill="url(#borde)"/>
+  <circle cx="40" cy="48" r="4" fill="#4ADE80"/><circle class="punto" cx="40" cy="48" r="4" fill="none" stroke="#4ADE80" stroke-width="2"/>
+  <text x="56" y="54" style="font:700 26px 'Segoe UI',-apple-system,'Helvetica Neue',Ubuntu,Arial,sans-serif;letter-spacing:-.3px" fill="#ECEFF6">In production</text>
+  <text x="1172" y="54" text-anchor="end" style="font:400 16px 'Segoe UI',-apple-system,'Helvetica Neue',Ubuntu,Arial,sans-serif" fill="#5F6A82">Private code · used daily by an electrical engineering company</text>
+  <g transform="translate(28 112)">
+      
+      <g transform="translate(10 4)" class="ic" style="animation-delay:0s"><rect x="0" y="0" width="22" height="28" rx="3" fill="none" stroke="#3FD0FF" stroke-width="2"/><path d="M5 9h12M5 14h12M5 19h8" stroke="#3FD0FF" stroke-width="2"/></g>
+      <text x="10" y="66" style="font:700 23px 'Segoe UI',-apple-system,'Helvetica Neue',Ubuntu,Arial,sans-serif" fill="#ECEFF6">Web quoting app</text>
+      <text x="10" y="100" style="font:400 17.5px 'Segoe UI',-apple-system,'Helvetica Neue',Ubuntu,Arial,sans-serif" fill="#9BA4B7">Catalog, roles and the official</text>
+      <text x="10" y="125" style="font:400 17.5px 'Segoe UI',-apple-system,'Helvetica Neue',Ubuntu,Arial,sans-serif" fill="#9BA4B7">PDF in two clicks.</text>
+      <text x="10" y="162" style="font:400 15.5px Consolas,'SF Mono','Cascadia Code',Menlo,monospace" fill="#3FD0FF">Node.js · PostgreSQL</text></g><g transform="translate(314 112)">
+      <line x1="-14" y1="0" x2="-14" y2="150" stroke="#1E2636"/>
+      <g transform="translate(10 4)" class="ic" style="animation-delay:0.6s"><rect x="3" y="3" width="22" height="22" rx="3" fill="none" stroke="#3FD0FF" stroke-width="2"/><rect x="9" y="9" width="10" height="10" fill="#3FD0FF" opacity=".5"/><path d="M9 0v3M14 0v3M19 0v3M9 25v3M14 25v3M19 25v3M0 9h3M0 14h3M0 19h3M25 9h3M25 14h3M25 19h3" stroke="#3FD0FF" stroke-width="2"/></g>
+      <text x="10" y="66" style="font:700 23px 'Segoe UI',-apple-system,'Helvetica Neue',Ubuntu,Arial,sans-serif" fill="#ECEFF6">AI invoice reader</text>
+      <text x="10" y="100" style="font:400 17.5px 'Segoe UI',-apple-system,'Helvetica Neue',Ubuntu,Arial,sans-serif" fill="#9BA4B7">Reads supplier invoices every</text>
+      <text x="10" y="125" style="font:400 17.5px 'Segoe UI',-apple-system,'Helvetica Neue',Ubuntu,Arial,sans-serif" fill="#9BA4B7">15 min; a person approves AI.</text>
+      <text x="10" y="162" style="font:400 15.5px Consolas,'SF Mono','Cascadia Code',Menlo,monospace" fill="#3FD0FF">Python · Raspberry Pi</text></g><g transform="translate(600 112)">
+      <line x1="-14" y1="0" x2="-14" y2="150" stroke="#1E2636"/>
+      <g transform="translate(10 4)" class="ic" style="animation-delay:1.2s"><rect x="0" y="2" width="28" height="24" rx="3" fill="none" stroke="#3FD0FF" stroke-width="2"/><path d="M0 10h28M0 18h28M10 2v24" stroke="#3FD0FF" stroke-width="2"/></g>
+      <text x="10" y="66" style="font:700 23px 'Segoe UI',-apple-system,'Helvetica Neue',Ubuntu,Arial,sans-serif" fill="#ECEFF6">Biweekly payroll</text>
+      <text x="10" y="100" style="font:400 17.5px 'Segoe UI',-apple-system,'Helvetica Neue',Ubuntu,Arial,sans-serif" fill="#9BA4B7">55 employees, matched the real</text>
+      <text x="10" y="125" style="font:400 17.5px 'Segoe UI',-apple-system,'Helvetica Neue',Ubuntu,Arial,sans-serif" fill="#9BA4B7">payroll within 50 cents.</text>
+      <text x="10" y="162" style="font:400 15.5px Consolas,'SF Mono','Cascadia Code',Menlo,monospace" fill="#3FD0FF">Excel · VBA</text></g><g transform="translate(886 112)">
+      <line x1="-14" y1="0" x2="-14" y2="150" stroke="#1E2636"/>
+      <g transform="translate(10 4)" class="ic" style="animation-delay:1.7999999999999998s"><path d="M5 20V12a9 9 0 0 1 18 0v8l3 3H2z M11 27h6" fill="none" stroke="#F5C542" stroke-width="2" stroke-linejoin="round"/></g>
+      <text x="10" y="66" style="font:700 23px 'Segoe UI',-apple-system,'Helvetica Neue',Ubuntu,Arial,sans-serif" fill="#ECEFF6">Expiration alerts</text>
+      <text x="10" y="100" style="font:400 17.5px 'Segoe UI',-apple-system,'Helvetica Neue',Ubuntu,Arial,sans-serif" fill="#9BA4B7">Daily email before exams, contracts</text>
+      <text x="10" y="125" style="font:400 17.5px 'Segoe UI',-apple-system,'Helvetica Neue',Ubuntu,Arial,sans-serif" fill="#9BA4B7">or safety courses expire.</text>
+      <text x="10" y="162" style="font:400 15.5px Consolas,'SF Mono','Cascadia Code',Menlo,monospace" fill="#3FD0FF">VBA · Scheduler</text></g>
+</g>
+<rect x=".5" y=".5" width="1199" height="339" rx="15.5" fill="none" stroke="#1E2636"/>
+</svg>

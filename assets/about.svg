@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470" role="img" aria-label="About Leonardo Ayala">
+<style>
+  .num{font:400 17px Consolas,'SF Mono','Cascadia Code',Menlo,monospace;fill:#3A4358;text-anchor:end}
+  .cod{font:400 20px Consolas,'SF Mono','Cascadia Code',Menlo,monospace}
+  .l{opacity:0;animation:aparece .45s ease-out forwards}
+  @keyframes aparece{from{opacity:0;transform:translateX(-10px)}to{opacity:1;transform:none}}
+  .cursor{animation:parpadea 1s steps(1) infinite;animation-delay:2.6s;opacity:0}
+  @keyframes parpadea{0%{opacity:1}50%{opacity:0}}
+  .barrido{animation:barre 6s ease-in-out infinite}
+  @keyframes barre{0%{transform:translateX(-400px)}60%,100%{transform:translateX(1300px)}}
+  @media (prefers-reduced-motion:reduce){.l{animation:none;opacity:1}.barrido,.cursor{animation:none}}
+</style>
+<defs>
+  <linearGradient id="luz" x1="0" x2="1"><stop offset="0" stop-color="#3FD0FF" stop-opacity="0"/><stop offset=".5" stop-color="#3FD0FF"/><stop offset="1" stop-color="#3FD0FF" stop-opacity="0"/></linearGradient>
+  <clipPath id="m"><rect width="1200" height="470" rx="16"/></clipPath>
+</defs>
+<g clip-path="url(#m)">
+  <rect width="1200" height="470" fill="#0B0F17"/>
+  <rect width="1200" height="48" fill="#0F1420"/>
+  <line x1="0" y1="48" x2="1200" y2="48" stroke="#1E2636"/>
+  <circle cx="28" cy="24" r="6" fill="#FF5F57"/><circle cx="48" cy="24" r="6" fill="#FEBC2E"/><circle cx="68" cy="24" r="6" fill="#28C840"/>
+  <rect x="96" y="10" width="150" height="38" rx="8" fill="#0B0F17"/>
+  <rect x="96" y="46" width="150" height="2" fill="#3FD0FF"/>
+  <text x="114" y="35" style="font:500 14px Consolas,'SF Mono','Cascadia Code',Menlo,monospace" fill="#7AA2FF">TS</text>
+  <text x="140" y="35" style="font:400 14px Consolas,'SF Mono','Cascadia Code',Menlo,monospace" fill="#ECEFF6">leonardo.ts</text>
+  <text x="1172" y="31" text-anchor="end" style="font:400 13px Consolas,'SF Mono','Cascadia Code',Menlo,monospace" fill="#5F6A82">~/leonardo-200224</text>
+  <g class="l" style="animation-delay:0.25s">
+      <text x="62" y="112" class="num">1</text>
+      <text x="104" y="112" class="cod" xml:space="preserve"><tspan fill="#7AA2FF">const </tspan><tspan fill="#ECEFF6">leonardo</tspan><tspan fill="#5F6A82"> = {</tspan></text></g>
+<g class="l" style="animation-delay:0.47s">
+      <text x="62" y="145" class="num">2</text>
+      <text x="104" y="145" class="cod" xml:space="preserve"><tspan fill="#ECEFF6">  name</tspan><tspan fill="#5F6A82">: </tspan><tspan fill="#3FD0FF">"Leonardo Iván Ayala Pérez"</tspan><tspan fill="#5F6A82">,</tspan></text></g>
+<g class="l" style="animation-delay:0.69s">
+      <text x="62" y="178" class="num">3</text>
+      <text x="104" y="178" class="cod" xml:space="preserve"><tspan fill="#ECEFF6">  role</tspan><tspan fill="#5F6A82">: </tspan><tspan fill="#3FD0FF">"Software Developer"</tspan><tspan fill="#5F6A82">,</tspan></text></g>
+<g class="l" style="animation-delay:0.91s">
+      <text x="62" y="211" class="num">4</text>
+      <text x="104" y="211" class="cod" xml:space="preserve"><tspan fill="#ECEFF6">  based</tspan><tspan fill="#5F6A82">: </tspan><tspan fill="#3FD0FF">"Colombia · UTC-5"</tspan><tspan fill="#5F6A82">,</tspan></text></g>
+<g class="l" style="animation-delay:1.13s">
+      <text x="62" y="244" class="num">5</text>
+      <text x="104" y="244" class="cod" xml:space="preserve"><tspan fill="#ECEFF6">  focus</tspan><tspan fill="#5F6A82">: [</tspan><tspan fill="#3FD0FF">"backend"</tspan><tspan fill="#5F6A82">, </tspan><tspan fill="#3FD0FF">"APIs"</tspan><tspan fill="#5F6A82">, </tspan><tspan fill="#3FD0FF">"process automation"</tspan><tspan fill="#5F6A82">],</tspan></text></g>
+<g class="l" style="animation-delay:1.35s">
+      <text x="62" y="277" class="num">6</text>
+      <text x="104" y="277" class="cod" xml:space="preserve"><tspan fill="#ECEFF6">  stack</tspan><tspan fill="#5F6A82">: [</tspan><tspan fill="#3FD0FF">"Node.js"</tspan><tspan fill="#5F6A82">, </tspan><tspan fill="#3FD0FF">"TypeScript"</tspan><tspan fill="#5F6A82">, </tspan><tspan fill="#3FD0FF">"NestJS"</tspan><tspan fill="#5F6A82">, </tspan><tspan fill="#3FD0FF">"Python"</tspan><tspan fill="#5F6A82">, </tspan><tspan fill="#3FD0FF">"PostgreSQL"</tspan><tspan fill="#5F6A82">],</tspan></text></g>
+<g class="l" style="animation-delay:1.57s">
+      <text x="62" y="310" class="num">7</text>
+      <text x="104" y="310" class="cod" xml:space="preserve"><tspan fill="#ECEFF6">  training</tspan><tspan fill="#5F6A82">: </tspan><tspan fill="#3FD0FF">"Riwi · Advanced Node.js track"</tspan><tspan fill="#5F6A82">,</tspan></text></g>
+<g class="l" style="animation-delay:1.79s">
+      <text x="62" y="343" class="num">8</text>
+      <text x="104" y="343" class="cod" xml:space="preserve"><tspan fill="#ECEFF6">  shipping</tspan><tspan fill="#5F6A82">: </tspan><tspan fill="#F5C542">4</tspan><tspan fill="#5F6A82">, </tspan><tspan fill="#5F6A82">// systems in production right now</tspan></text></g>
+<g class="l" style="animation-delay:2.01s">
+      <text x="62" y="376" class="num">9</text>
+      <text x="104" y="376" class="cod" xml:space="preserve"><tspan fill="#ECEFF6">  offline</tspan><tspan fill="#5F6A82">: [</tspan><tspan fill="#3FD0FF">"movies"</tspan><tspan fill="#5F6A82">, </tspan><tspan fill="#3FD0FF">"travel"</tspan><tspan fill="#5F6A82">, </tspan><tspan fill="#3FD0FF">"design"</tspan><tspan fill="#5F6A82">],</tspan></text></g>
+<g class="l" style="animation-delay:2.23s">
+      <text x="62" y="409" class="num">10</text>
+      <text x="104" y="409" class="cod" xml:space="preserve"><tspan fill="#5F6A82">};</tspan></text></g>
+  <rect class="cursor" x="140" y="393" width="10" height="20" fill="#3FD0FF"/>
+  <rect class="barrido" x="0" y="0" width="300" height="1.5" fill="url(#luz)"/>
+</g>
+<rect x=".5" y=".5" width="1199" height="469" rx="15.5" fill="none" stroke="#1E2636"/>
+</svg>

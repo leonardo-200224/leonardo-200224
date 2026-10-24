@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="120" viewBox="0 0 1200 120" role="img" aria-label="Always learning. Always building. Always improving.">
+<style>
+  .pista{fill:none;stroke:#1A2A52;stroke-width:2}
+  .pulso{fill:none;stroke:#3FD0FF;stroke-width:2.5;stroke-linecap:round;stroke-dasharray:40 1300;animation:corre 4s linear infinite}
+  @keyframes corre{from{stroke-dashoffset:1340}to{stroke-dashoffset:0}}
+  .logo{fill:none;stroke:url(#g);stroke-width:4;stroke-linecap:round;stroke-linejoin:round}
+  @media (prefers-reduced-motion:reduce){.pulso{animation:none}}
+</style>
+<defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#4D7CFF"/><stop offset="1" stop-color="#3FD0FF"/></linearGradient></defs>
+<path class="pista" d="M0 60H520M680 60H1200"/>
+<path class="pulso" d="M0 60H520M680 60H1200"/>
+<circle cx="520" cy="60" r="4" fill="#05060A" stroke="#3FD0FF" stroke-width="2"/><circle cx="680" cy="60" r="4" fill="#05060A" stroke="#3FD0FF" stroke-width="2"/>
+<g transform="translate(572 42)"><path class="logo" d="M6 5V31H27L38 5L49 31"/><path class="logo" d="M32.5 20H43.5"/></g>
+<text x="600" y="108" text-anchor="middle" style="font:400 17px Consolas,'SF Mono','Cascadia Code',Menlo,monospace" fill="#5F6A82">always learning · always building · always improving</text>
+</svg>
