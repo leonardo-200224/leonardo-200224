@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-label="Live GitHub stats: 338 contributions in the last year, 49 public repositories">
+<style>
+  .cifra{opacity:0;animation:aparece .6s ease-out forwards}
+  @keyframes aparece{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+  .seg{transform-box:fill-box;transform-origin:left;transform:scaleX(0);animation:crece .8s cubic-bezier(.2,.7,.2,1) forwards}
+  @keyframes crece{to{transform:scaleX(1)}}
+  .punto{animation:vivo 2s ease-out infinite}
+  @keyframes vivo{0%{r:4;opacity:1}100%{r:12;opacity:0}}
+  @media (prefers-reduced-motion:reduce){.cifra,.seg,.punto{animation:none;opacity:1;transform:none}}
+</style>
+<defs>
+  <linearGradient id="num" x1="0" y1="0" x2="0" y2="1"><stop offset=".3" stop-color="#fff"/><stop offset="1" stop-color="#4D7CFF"/></linearGradient>
+  <linearGradient id="borde" x1="0" x2="1"><stop offset="0" stop-color="#4D7CFF"/><stop offset=".5" stop-color="#3FD0FF"/><stop offset="1" stop-color="#F5C542"/></linearGradient>
+  <clipPath id="m"><rect width="1200" height="330" rx="16"/></clipPath>
+  <clipPath id="barra"><rect x="660" y="118" width="512" height="14" rx="7"/></clipPath>
+</defs>
+<g clip-path="url(#m)">
+  <rect width="1200" height="330" fill="#0B0F17"/>
+  <rect width="1200" height="2" fill="url(#borde)"/>
+  <circle cx="40" cy="48" r="4" fill="#4ADE80"/><circle class="punto" cx="40" cy="48" r="4" fill="none" stroke="#4ADE80" stroke-width="2"/>
+  <text x="56" y="55" style="font:700 26px 'Segoe UI',-apple-system,'Helvetica Neue',Ubuntu,Arial,sans-serif;letter-spacing:-.3px" fill="#ECEFF6">Live from GitHub</text>
+  <text x="1172" y="55" text-anchor="end" style="font:400 15px Consolas,'SF Mono','Cascadia Code',Menlo,monospace" fill="#5F6A82">updated Oct 31, 1:23 PM COT</text>
+  <g transform="translate(28 120)"><g class="cifra" style="animation-delay:0.2s">
+      <text style="font:800 46px 'Segoe UI',-apple-system,'Helvetica Neue',Ubuntu,Arial,sans-serif;letter-spacing:-1.5px" fill="url(#num)">338<tspan dx="8" style="font:600 17px 'Segoe UI',-apple-system,'Helvetica Neue',Ubuntu,Arial,sans-serif;letter-spacing:0" fill="#3FD0FF">contributions</tspan></text>
+      <text y="28" style="font:400 15px 'Segoe UI',-apple-system,'Helvetica Neue',Ubuntu,Arial,sans-serif" fill="#9BA4B7">in the last year</text></g></g><g transform="translate(328 120)"><g class="cifra" style="animation-delay:0.35s">
+      <text style="font:800 46px 'Segoe UI',-apple-system,'Helvetica Neue',Ubuntu,Arial,sans-serif;letter-spacing:-1.5px" fill="url(#num)">2<tspan dx="8" style="font:600 17px 'Segoe UI',-apple-system,'Helvetica Neue',Ubuntu,Arial,sans-serif;letter-spacing:0" fill="#3FD0FF">days</tspan></text>
+      <text y="28" style="font:400 15px 'Segoe UI',-apple-system,'Helvetica Neue',Ubuntu,Arial,sans-serif" fill="#9BA4B7">current streak</text></g></g><g transform="translate(28 224)"><g class="cifra" style="animation-delay:0.5s">
+      <text style="font:800 46px 'Segoe UI',-apple-system,'Helvetica Neue',Ubuntu,Arial,sans-serif;letter-spacing:-1.5px" fill="url(#num)">8<tspan dx="8" style="font:600 17px 'Segoe UI',-apple-system,'Helvetica Neue',Ubuntu,Arial,sans-serif;letter-spacing:0" fill="#3FD0FF">days</tspan></text>
+      <text y="28" style="font:400 15px 'Segoe UI',-apple-system,'Helvetica Neue',Ubuntu,Arial,sans-serif" fill="#9BA4B7">longest streak</text></g></g><g transform="translate(328 224)"><g class="cifra" style="animation-delay:0.6499999999999999s">
+      <text style="font:800 46px 'Segoe UI',-apple-system,'Helvetica Neue',Ubuntu,Arial,sans-serif;letter-spacing:-1.5px" fill="url(#num)">49<tspan dx="8" style="font:600 17px 'Segoe UI',-apple-system,'Helvetica Neue',Ubuntu,Arial,sans-serif;letter-spacing:0" fill="#3FD0FF">repos</tspan></text>
+      <text y="28" style="font:400 15px 'Segoe UI',-apple-system,'Helvetica Neue',Ubuntu,Arial,sans-serif" fill="#9BA4B7">public on GitHub</text></g></g>
+  <line x1="620" y1="100" x2="620" y2="260" stroke="#1E2636"/>
+  <text x="660" y="100" style="font:600 15px 'Segoe UI',-apple-system,'Helvetica Neue',Ubuntu,Arial,sans-serif" fill="#9BA4B7">Languages across my repositories</text>
+  <rect x="660" y="118" width="512" height="14" rx="7" fill="#121826"/>
+  <g clip-path="url(#barra)"><rect class="seg" style="animation-delay:0.3s" x="660" y="118" width="230.52916317505336" height="14" fill="#F1E05A"/><rect class="seg" style="animation-delay:0.42s" x="890.5291631750533" y="118" width="80.14774048613872" height="14" fill="#563D7C"/><rect class="seg" style="animation-delay:0.54s" x="970.676903661192" y="118" width="60.30169025042496" height="14" fill="#3178C6"/><rect class="seg" style="animation-delay:0.6599999999999999s" x="1030.978593911617" y="118" width="56.193793163107124" height="14" fill="#E34C26"/><rect class="seg" style="animation-delay:0.78s" x="1087.1723870747242" y="118" width="44.9015595902301" height="14" fill="#3572A5"/><rect class="seg" style="animation-delay:0.8999999999999999s" x="1132.0739466649543" y="118" width="32.50694881909613" height="14" fill="#4F5D95"/></g>
+  <g transform="translate(660 172)"><circle cx="6" cy="-5" r="6" fill="#F1E05A"/>
+      <text x="22" y="0" style="font:600 16px 'Segoe UI',-apple-system,'Helvetica Neue',Ubuntu,Arial,sans-serif" fill="#ECEFF6">JavaScript</text>
+      <text x="230" y="0" text-anchor="end" style="font:400 15px Consolas,'SF Mono','Cascadia Code',Menlo,monospace" fill="#9BA4B7">45.0%</text></g><g transform="translate(922 172)"><circle cx="6" cy="-5" r="6" fill="#563D7C"/>
+      <text x="22" y="0" style="font:600 16px 'Segoe UI',-apple-system,'Helvetica Neue',Ubuntu,Arial,sans-serif" fill="#ECEFF6">CSS</text>
+      <text x="230" y="0" text-anchor="end" style="font:400 15px Consolas,'SF Mono','Cascadia Code',Menlo,monospace" fill="#9BA4B7">15.7%</text></g><g transform="translate(660 208)"><circle cx="6" cy="-5" r="6" fill="#3178C6"/>
+      <text x="22" y="0" style="font:600 16px 'Segoe UI',-apple-system,'Helvetica Neue',Ubuntu,Arial,sans-serif" fill="#ECEFF6">TypeScript</text>
+      <text x="230" y="0" text-anchor="end" style="font:400 15px Consolas,'SF Mono','Cascadia Code',Menlo,monospace" fill="#9BA4B7">11.8%</text></g><g transform="translate(922 208)"><circle cx="6" cy="-5" r="6" fill="#E34C26"/>
+      <text x="22" y="0" style="font:600 16px 'Segoe UI',-apple-system,'Helvetica Neue',Ubuntu,Arial,sans-serif" fill="#ECEFF6">HTML</text>
+      <text x="230" y="0" text-anchor="end" style="font:400 15px Consolas,'SF Mono','Cascadia Code',Menlo,monospace" fill="#9BA4B7">11.0%</text></g><g transform="translate(660 244)"><circle cx="6" cy="-5" r="6" fill="#3572A5"/>
+      <text x="22" y="0" style="font:600 16px 'Segoe UI',-apple-system,'Helvetica Neue',Ubuntu,Arial,sans-serif" fill="#ECEFF6">Python</text>
+      <text x="230" y="0" text-anchor="end" style="font:400 15px Consolas,'SF Mono','Cascadia Code',Menlo,monospace" fill="#9BA4B7">8.8%</text></g><g transform="translate(922 244)"><circle cx="6" cy="-5" r="6" fill="#4F5D95"/>
+      <text x="22" y="0" style="font:600 16px 'Segoe UI',-apple-system,'Helvetica Neue',Ubuntu,Arial,sans-serif" fill="#ECEFF6">PHP</text>
+      <text x="230" y="0" text-anchor="end" style="font:400 15px Consolas,'SF Mono','Cascadia Code',Menlo,monospace" fill="#9BA4B7">6.3%</text></g>
+  <line x1="28" y1="282" x2="1172" y2="282" stroke="#1E2636"/>
+  <text x="28" y="310" style="font:400 15px Consolas,'SF Mono','Cascadia Code',Menlo,monospace" fill="#5F6A82">latest push · <tspan fill="#ECEFF6">fleetcore</tspan> · TypeScript · 2 days ago</text>
+</g>
+<rect x=".5" y=".5" width="1199" height="329" rx="15.5" fill="none" stroke="#1E2636"/>
+</svg>
